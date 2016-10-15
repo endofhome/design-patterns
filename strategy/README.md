@@ -1,17 +1,23 @@
-ARTIST INFORMATION RUNNER
+#Artist Information
 
 My first experiment in using the Strategy design pattern described in "Head First Design Patterns" by Eric Freeman and Elisabeth Robson.
+
 The Strategy pattern enables you to use composition for behaviours that will change, and inheritance for behaviours that you that you don't expect to.
 
 There are three design principles considered.
+
 Design Principle #1: "Encapsulate what varies"
+
 Design Principle #2: Program to an interface, not an implementation.
+
 Design Principle #3: Favour composition over inheritance.
 
-Compile the code and run the main method in ArtistInformationRunner.
+### Run the program
+Compile the code and run the main method in `ArtistInformationRunner`.
 
 The program output is:
 
+```
 ART ENSEMBLE OF CHICAGO
 > Make some noise!
 That's why we're here.
@@ -51,3 +57,4 @@ Hyperactive grindcore blastbeats fill the room
 You what? Doesn't sound like music to me.
 > Introduce the band!
 Nicholas Bullen, Simon Oppenheimer and Miles Ratledge make up the original line-up,
+```
