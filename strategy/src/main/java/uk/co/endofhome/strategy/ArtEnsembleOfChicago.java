@@ -3,6 +3,7 @@ package uk.co.endofhome.strategy;
 public class ArtEnsembleOfChicago extends Band {
 
     public ArtEnsembleOfChicago() {
+        name = "Art Ensemble of Chicago";
         rockOutBehavior = new CannotRockOut();
         improviseBehaviour = new FreeJazz();
     }

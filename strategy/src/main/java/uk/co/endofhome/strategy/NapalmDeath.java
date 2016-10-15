@@ -3,6 +3,7 @@ package uk.co.endofhome.strategy;
 public class NapalmDeath extends Band {
 
     public NapalmDeath() {
+        name = "Napalm Death";
         rockOutBehavior = new FastGrind();
         improviseBehaviour = new CannotImprovise();
     }

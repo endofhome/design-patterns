@@ -3,6 +3,7 @@ package uk.co.endofhome.strategy;
 public class BlackSabbath extends Band {
 
     public BlackSabbath() {
+        name = "Black Sabbath";
         rockOutBehavior = new SlowRock();
         improviseBehaviour = new CannotImprovise();
     }
