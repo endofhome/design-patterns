@@ -2,7 +2,7 @@
 
 My first experiment in using the Strategy design pattern described in "Head First Design Patterns" by Eric Freeman and Elisabeth Robson.
 
-The Strategy pattern enables you to use composition for behaviours that will change, and inheritance for behaviours that you that you don't expect to.
+The Strategy pattern enables you to use composition for behaviours that will change, and inheritance for behaviours that you don't expect to.
 
 There are three design principles considered.
 
