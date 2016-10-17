@@ -36,4 +36,9 @@ THE PESSIMIST says:
 DOOOOOOOOOOMED. I'm heading into my bunker and cracking out the sardines. Good job I saved all those old copper two-pence pieces.
 THE ANARCHIST says:
 Crash JP Morgan. Buy silver!
+
+Things are looking up! We only need a positive view...
+£€$ ~~   TODAY'S RATE: 1.8 EUR TO 1 GBP   ~~ $€£
+THE OPTIMIST says:
+See! I told you it would all be fine. Boris knew what he was doing after all. We're laughin' all the way to the bank.
 ```

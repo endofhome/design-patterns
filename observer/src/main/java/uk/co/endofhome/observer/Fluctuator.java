@@ -16,5 +16,10 @@ public class Fluctuator {
 
         currencyExchange.setEurToGbpXrate(0.4);
         System.out.println("");
+
+        System.out.println("Things are looking up! We only need a positive view...");
+        currencyExchange.removeObserver(pessimist);
+        currencyExchange.removeObserver(anarchist);
+        currencyExchange.setEurToGbpXrate(1.8);
     }
 }
