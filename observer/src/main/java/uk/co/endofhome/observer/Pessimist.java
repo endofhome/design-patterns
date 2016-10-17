@@ -1,6 +1,6 @@
 package uk.co.endofhome.observer;
 
-public class Pessimist extends Opinionated implements Observer {
+public class Pessimist extends Commentator implements Observer {
     private final CurrencyExchange currencyExchange;
     private double eurToGbpExchangeRate;
 

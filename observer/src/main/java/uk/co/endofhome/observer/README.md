@@ -4,7 +4,7 @@ My first experiment with the Observer pattern.
 
 The Observer Pattern defines a one-to-many dependency between objects, so that when one object changes state, all of its dependents are notified and updated automatically.
 This is a kind of data-binding, in my (perhaps naïve) understanding similar to the update behaviours of the model, controller and view in MVC.
-I used an abstract class ```Opinionated``` to implement the ```information``` method, this isn't related to Observer pattern but was used just to save duplicating the code across the ```Observer``` concrete classes.
+I used an abstract class ```Commentator``` to implement the ```information``` method, this isn't related to Observer pattern but was used just to save duplicating the code across the ```Observer``` concrete classes.
 
 ### Run the program
 

@@ -2,10 +2,10 @@ package uk.co.endofhome.observer;
 
 import static java.lang.String.*;
 
-public abstract class Opinionated {
+public abstract class Commentator {
     private final String name;
 
-    protected Opinionated(String name) {
+    protected Commentator(String name) {
         this.name = name;
     }
 
