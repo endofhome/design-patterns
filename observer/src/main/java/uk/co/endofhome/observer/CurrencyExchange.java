@@ -31,7 +31,7 @@ public class CurrencyExchange implements Observable {
     }
 
     public void setEurToGbpXrate(double newRate) {
-        System.out.println(format("TODAY'S DATE: %s EUR TO 1 GBP", newRate));
+        System.out.println(format("£€$ ~~   TODAY'S RATE: %s EUR TO 1 GBP   ~~ $€£", newRate));
         eurToGbpExchangeRate = newRate;
         notifyObservers();
     }

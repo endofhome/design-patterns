@@ -13,7 +13,7 @@ Compile the code and run the main method in `Fluctuator`.
 Program output will be:
 
 ```
-TODAY'S DATE: 1.5 EUR TO 1 GBP
+£€$ ~~   TODAY'S RATE: 1.5 EUR TO 1 GBP   ~~ $€£
 THE OPTIMIST says:
 See! I told you it would all be fine. Boris knew what he was doing after all. We're laughin' all the way to the bank.
 THE PESSIMIST says:
@@ -21,7 +21,7 @@ It can only go down. And it will. We're doomed. I saw it in an Adam Curtis movie
 THE ANARCHIST says:
 Buy Bitcoin!
 
-TODAY'S DATE: 1.1 EUR TO 1 GBP
+£€$ ~~   TODAY'S RATE: 1.1 EUR TO 1 GBP   ~~ $€£
 THE OPTIMIST says:
 Our exports will be up, Nigel said. They don't make warm beer like ours anywhere else in the  world!
 THE PESSIMIST says:
@@ -29,7 +29,7 @@ Groan.
 THE ANARCHIST says:
 Crash JP Morgan. Buy silver!
 
-TODAY'S DATE: 0.4 EUR TO 1 GBP
+£€$ ~~   TODAY'S RATE: 0.4 EUR TO 1 GBP   ~~ $€£
 THE OPTIMIST says:
 Our exports will be up, Nigel said. They don't make warm beer like ours anywhere else in the  world!
 THE PESSIMIST says:
