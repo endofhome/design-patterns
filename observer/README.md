@@ -6,6 +6,10 @@ The Observer Pattern defines a one-to-many dependency between objects, so that w
 This is a kind of data-binding, in my (perhaps naïve) understanding similar to the update behaviours of the model, controller and view in MVC.
 I used an abstract class ```Commentator``` to implement the ```introduction``` method, this isn't related to Observer pattern but was used just to save duplicating the code across the ```Observer``` concrete classes.
 
+The primary design principle applied here is:
+
+Design Principle #4: Strive for loosely coupled designs between objects that interact.
+
 ### Run the program
 
 Compile the code and run the main method in `Fluctuator`.
