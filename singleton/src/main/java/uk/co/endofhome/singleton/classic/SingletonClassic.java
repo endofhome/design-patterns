@@ -13,4 +13,6 @@ public class SingletonClassic {
         }
         return uniqueInstance;
     }
+
+    public String description = "Classic singleton";
 }

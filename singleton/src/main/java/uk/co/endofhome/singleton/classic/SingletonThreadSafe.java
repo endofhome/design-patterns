@@ -13,4 +13,6 @@ public class SingletonThreadSafe {
         }
         return uniqueInstance;
     }
+
+    public String description = "Thread safe singleton";
 }

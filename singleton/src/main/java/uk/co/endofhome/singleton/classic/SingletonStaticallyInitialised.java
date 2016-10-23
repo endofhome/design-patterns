@@ -8,4 +8,6 @@ public class SingletonStaticallyInitialised {
     public static SingletonStaticallyInitialised getInstance() {
         return uniqueInstance;
     }
+
+    public String description = "Statically initalised Singleton";
 }
