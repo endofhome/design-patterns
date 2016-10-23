@@ -5,7 +5,6 @@ public class MiniBarBeer extends RoomService {
 
     public MiniBarBeer(HotelRoom hotelRoom) {
         this.hotelRoom = hotelRoom;
-        description = "Mini-bar: beer";
     }
 
     @Override
@@ -15,6 +14,6 @@ public class MiniBarBeer extends RoomService {
 
     @Override
     public String description() {
-        return description;
+        return hotelRoom.description() + ", Mini-bar: beer";
     }
 }

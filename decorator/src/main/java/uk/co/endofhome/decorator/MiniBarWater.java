@@ -5,7 +5,6 @@ public class MiniBarWater extends RoomService {
 
     public MiniBarWater(HotelRoom hotelRoom) {
         this.hotelRoom = hotelRoom;
-        description = "Mini-bar: water";
     }
 
     @Override
@@ -15,6 +14,6 @@ public class MiniBarWater extends RoomService {
 
     @Override
     public String description() {
-        return description;
+        return hotelRoom.description() + ", Mini-bar: water";
     }
 }

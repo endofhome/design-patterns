@@ -5,7 +5,6 @@ public class LateCheckOut extends RoomService {
 
     public LateCheckOut(HotelRoom hotelRoom) {
         this.hotelRoom = hotelRoom;
-        description = "Late check out";
     }
     @Override
     public double cost() {
@@ -14,6 +13,6 @@ public class LateCheckOut extends RoomService {
 
     @Override
     public String description() {
-        return description;
+        return hotelRoom.description() + ", Late check out";
     }
 }

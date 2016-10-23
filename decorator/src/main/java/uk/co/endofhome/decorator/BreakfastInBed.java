@@ -5,7 +5,6 @@ public class BreakfastInBed extends RoomService {
 
     public BreakfastInBed(HotelRoom hotelRoom) {
         this.hotelRoom = hotelRoom;
-        description = "Breakfast in bed";
     }
 
     @Override
@@ -15,6 +14,6 @@ public class BreakfastInBed extends RoomService {
 
     @Override
     public String description() {
-        return description;
+        return hotelRoom.description() + ", Breakfast in bed";
     }
 }
