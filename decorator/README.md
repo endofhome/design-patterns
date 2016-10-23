@@ -10,14 +10,27 @@ Program output will be:
 
 ```
 BASIC STAY:
-Single room
-€60.0
+Single room: €60.0
 
-THIRSTY CUSTOMERS:
-Double room, Mini-bar: cola, Mini-bar: water
-€88.0
+Total bill: €60.0
+
+--------------------
+
+TWO THIRSTY CUSTOMERS:
+Double room: €80.0
+Mini-bar - cola: €3.0
+Mini-bar - water: €5.0
+
+Total bill: €88.0
+
+--------------------
 
 ROCK STAR:
-Luxury suite, Mini-bar: beer, Late check out, Breakfast in bed, Mini-bar: beer
-€212.0
+Luxury suite: €150.0
+Mini-bar - beer: 6.0
+Late check out: €30.0
+Breakfast in bed: €20.0
+Mini-bar - beer: 6.0
+
+Total bill: €212.0
 ```

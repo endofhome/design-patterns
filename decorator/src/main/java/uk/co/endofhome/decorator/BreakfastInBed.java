@@ -5,15 +5,16 @@ public class BreakfastInBed extends RoomService {
 
     public BreakfastInBed(HotelRoom hotelRoom) {
         this.hotelRoom = hotelRoom;
+        this.cost = 20;
     }
 
     @Override
     public double cost() {
-        return 20 + hotelRoom.cost();
+        return cost + hotelRoom.cost();
     }
 
     @Override
     public String description() {
-        return hotelRoom.description() + ", Breakfast in bed";
+        return hotelRoom.description() + "Breakfast in bed: €" + cost + "\n";
     }
 }

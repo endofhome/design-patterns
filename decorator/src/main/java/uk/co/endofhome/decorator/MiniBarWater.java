@@ -5,15 +5,16 @@ public class MiniBarWater extends RoomService {
 
     public MiniBarWater(HotelRoom hotelRoom) {
         this.hotelRoom = hotelRoom;
+        this.cost = 5.00;
     }
 
     @Override
     public double cost() {
-        return 5.00 + hotelRoom.cost();
+        return cost + hotelRoom.cost();
     }
 
     @Override
     public String description() {
-        return hotelRoom.description() + ", Mini-bar: water";
+        return hotelRoom.description() + "Mini-bar - water: €" + cost + "\n";
     }
 }
