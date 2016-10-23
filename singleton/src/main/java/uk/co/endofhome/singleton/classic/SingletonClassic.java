@@ -5,6 +5,8 @@ public class SingletonClassic {
 
     private SingletonClassic() {};
 
+    // nb. This is not thread safe!
+
     public static SingletonClassic getInstance() {
         if (uniqueInstance == null) {
             uniqueInstance = new SingletonClassic();
