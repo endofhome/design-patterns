@@ -1,8 +1,8 @@
-#Hotelbillerizer
+# Hotelbillerizer
 
 My first experiment with the Decorator pattern.
 
-###Run the program:
+### Run the program:
 
 Compile the code and run the main method in `Hotelbillerizer`.
 
