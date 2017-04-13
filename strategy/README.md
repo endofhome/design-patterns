@@ -1,4 +1,4 @@
-#Artist Information
+# Artist Information
 
 My first experiment in using the Strategy design pattern described in "Head First Design Patterns" by Eric Freeman and Elisabeth Robson.
 
